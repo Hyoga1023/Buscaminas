@@ -1,7 +1,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             // Configuración del juego
             const width = 15;
-            const height = 20;
+            const height = 15;
             const totalMines = Math.floor(width * height * 0.15); // ~15% del tablero son minas
             const maxLives = 3;
             
