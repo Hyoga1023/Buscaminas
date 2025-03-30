@@ -1,0 +1,73 @@
+/* CSS Reset */
+
+/* Elimina márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Establece el tamaño de fuente base y mejora la legibilidad */
+  html {
+    font-size: 100%;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%; /* Evita ajustes automáticos en dispositivos móviles */
+  }
+  
+  /* Elimina decoraciones y estilos predeterminados en enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Reestablece estilos de lista */
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* Estilos base para imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Evita bordes adicionales en imágenes y campos de formulario */
+  img,
+  fieldset {
+    border: 0;
+  }
+  
+  /* Normaliza botones */
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Asegura que los inputs y textareas sean consistentes */
+  input,
+  textarea {
+    font: inherit;
+  }
+  
+  /* Define un estilo base para el body */
+  body {
+    font-family: sans-serif;
+    color: #000;
+    background-color: #fff;
+  }
+  
+  /* Elimina el subrayado en enlaces activos en dispositivos móviles */
+  a:active,
+  a:focus {
+    outline: none;
+  }
+  
+  /* Mejora la accesibilidad al manejar el enfoque */
+  :focus-visible {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+  }
+  
